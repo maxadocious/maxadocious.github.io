@@ -1,0 +1,26 @@
+/*
+font-family: 'Prompt', sans-serif;
+font-family: 'Chakra Petch', sans-serif;
+*/
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+}
+.grid-demo{
+
+}
+.grid-demo div{
+  border:1px solid black;
+}
+.grid-demo section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.grid-demo .feature{
+  grid-column: 2/4;
+  grid-row:1/3;
+  foont-weight: 700;
+  padding: 20px;
+
+}
