@@ -1,0 +1,20 @@
+body {
+  display: block;
+  margin: 8px;
+  background-color: black;
+}
+
+.jordans section{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: white;
+}
+p {
+  font-family: 'Advent Pro', sans-serif;
+  color: white;
+}
