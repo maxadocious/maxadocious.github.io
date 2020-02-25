@@ -1,0 +1,28 @@
+/* main.scss */
+@import url("https://fonts.googleapis.com/css?family=Lacquer|Raleway&display=swap");
+/*
+font-family: 'Lacquer', ;
+font-family: 'Raleway', ;
+*/
+/*partials*/
+body {
+  font-family: "Raleway"; }
+
+h1, h2, h3, h4 {
+  color: #094a70;
+  font-family: "Lacquer"; }
+
+.content {
+  width: 70%;
+  margin: auto;
+  padding: 20px; }
+  .content p {
+    font-size: 18px; }
+  .content a {
+    text-decoration: none;
+    color: #ff9691; }
+    .content a:hover {
+      text-decoration: line-through;
+      color: #91faff; }
+
+/*# sourceMappingURL=style.css.map */

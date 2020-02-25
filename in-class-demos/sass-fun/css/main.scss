@@ -1,0 +1,36 @@
+/* main.scss */
+
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Raleway&display=swap');
+
+/*
+font-family: 'Lacquer', ;
+font-family: 'Raleway', ;
+*/
+
+@import 'partials/variable';
+
+body {
+  font-family: $body-font;
+}
+
+h1, h2, h3, h4 {
+  color: $primary-text;
+  font-family: $header-font;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  p {
+    font-size: 18px;
+  }
+  a{
+    text-decoration: none;
+    color: $highlight-text;
+    &:hover{
+      text-decoration: line-through;
+      color: complement($highlight-text);
+    }
+  }
+}
