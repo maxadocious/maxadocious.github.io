@@ -92,6 +92,10 @@ nav a:hover {
   margin: auto;
 }
 
+.thumbs img{
+  width: 100px;
+}
+
 main { 
 	background-color: #fff;
 	display: inline;
@@ -100,18 +104,12 @@ main {
 
 section {
 	padding: 40px 60px;
+  text-align: center;
 }
 
-section ul, aside ul {
-	list-style-type: square;
-	margin-top: 20px; 
-	margin-left: 30px;
-	margin-bottom: 40px;
-}
-
-aside {
-	padding: 40px 10px;
-  display: none;
+section a {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 footer { 
@@ -119,6 +117,6 @@ footer {
 	text-align: center;
  }
 
- footer p { 
+footer p { 
   padding-bottom: 20px; 
  }
