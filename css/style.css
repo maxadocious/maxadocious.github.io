@@ -100,10 +100,9 @@ nav a:hover {
   width: 50%;
 }
 
-/* Main styles */
 main { 
 	background-color: #fff;
-	display: grid;
+	display: inline;
 	grid-template-columns: 60% 40%;
 }
 
