@@ -7,11 +7,46 @@ body {
 }
 
 a {
-	text-decoration: none;
-	color: #333;
+font-family: eb-garamond, serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+color: #333;
+line-height: 25px;
+transition: color 0.3s linear;
+-webkit-transition: color 0.3s linear;
+-moz-transition: color 0.3s linear;
 }
 
-a:hover { color: Tomato; }
+p {
+font-family: eb-garamond, serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+color: #333;
+}
+
+h1 {
+font-family: apotek-extended, sans-serif;
+font-weight: 800;
+font-style: normal;
+color: white;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: black;
+letter-spacing: 2px;
+}
+
+h2 {
+  font-family: apotek-extended, sans-serif;
+font-weight: 800;
+font-style: normal;
+letter-spacing: 1px;
+}
+
+
+a:hover { 
+color: #dcdcdc; 
+}
 
 header, nav, main, footer {
 	width: 80%;
@@ -21,26 +56,49 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	min-height: 100px;
 	margin-top: 60px;
+  padding: 4px 60px;
+}
+
+header img {
+  display: inline;
 }
 
 header h1 {
-	padding: 40px 60px;
+  display: inline;
 	font-size: 48px;
+  padding-left: 25px;
 }
 
 
 /* Nav styles */
-nav { background-color: white; }
+nav { 
+  background-color: white;
+  margin-top: 60px;
+  padding: 17.5px 100px; 
+}
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
 }
-nav li { padding: 10px 10px; }
-nav a { color: black; }
-nav a:hover { color: tomato; }
+nav li { 
+  padding: 1px 10px; 
+  }
+nav a { 
+  color: black;
+  }
+nav a:hover { 
+  color: #dcdcdc; 
+  }
 
+.left {
+  float: left;
+  width: 50%;
+}
+.right {
+  float: right;
+  width: 50%;
+}
 
 /* Main styles */
 main { 
@@ -62,6 +120,7 @@ section ul, aside ul {
 
 aside {
 	padding: 40px 10px;
+  display: none;
 }
 
 /* Footer styles */
