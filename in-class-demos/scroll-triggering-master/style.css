@@ -58,7 +58,8 @@ main {
   right: 0;
 }
 .one {
-  background: #514ce6;
+  background-image: url(images/giphy.gif);
+  background-size: cover;
 }
 .two {
   background: #3a37a6;
