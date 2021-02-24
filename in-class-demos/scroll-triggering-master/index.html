@@ -20,26 +20,41 @@
         <section class="slide two">
           <article class="vh-center">
             <p class="center">SPRING!</p>
-            <button id="btn" type="button">Click here for sound</button>
-	<audio id="audio" src="images/birds.mp3"></audio>
+            <audio controls autoplay>
+  <source src="images/birds.mp3" type="audio/ogg">
+  <source src="images/birds.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
           </article>
         </section>
         <section class="slide three">
           <article class="vh-center">
             <p class="center">SUMMER!</p>
-              <a id="birds-button" href="#">Press Me!</a>
+            <audio controls autoplay>
+  <source src="images/birds.mp3" type="audio/ogg">
+  <source src="images/birds.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
           </article>
         </section>
         <section class="slide four">
           <article class="vh-center">
             <p class="center">FALL</p>
-                <a id="rain-button" href="#">Press Me!</a>
+            <audio controls autoplay>
+  <source src="images/rain.mp3" type="audio/ogg">
+  <source src="images/rain.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
           </article>
         </section>
         <section class="slide five">
           <article class="vh-center">
             <p class="center">LAST BUT NOT LEAST, WINTER</p>
-              <a id="ice-button" href="#">Press Me!</a>
+            <audio controls autoplay>
+  <source src="images/ice.mp3" type="audio/ogg">
+  <source src="images/ice.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
           </article>
         </section>
       </div>
@@ -49,10 +64,6 @@
     <script src="js/jquery.waypoints.min.js"></script>
 
     <script>
-
-    $("#btn").on("click", function() {
-		var audio = $("#audio")[0];
-		audio.play();
 
     var $two = $(".two")
 
