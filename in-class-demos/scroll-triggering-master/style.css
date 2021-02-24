@@ -62,16 +62,20 @@ main {
   background-size: cover;
 }
 .two {
-  background: #3a37a6;
+  background-image: url(images/giphy-4.gif);
+  background-size: cover;
 }
 .three {
-  background: #2a2878;
+  background-image: url(images/giphy-2.gif);
+  background-size: cover;
 }
 .four {
-  background: #1f1d57;
+  background-image: url(images/giphy-1.gif);
+  background-size: cover;
 }
 .five {
-  background: #111030;
+  background-image: url(images/giphy-3.gif);
+  background-size: cover;
 }
 .center {
   text-align: center;
