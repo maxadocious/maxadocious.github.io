@@ -20,7 +20,9 @@
         <section class="slide two">
           <article class="vh-center">
             <p class="center">SPRING!</p>
-            <a id="birds-button" href="images/birds.mp3">Press Me!</a>
+            <button id="birds">
+                Press Me
+            </button>
           </article>
         </section>
         <section class="slide three">
@@ -48,6 +50,17 @@
     <script src="js/jquery.waypoints.min.js"></script>
 
     <script>
+
+    $('document').ready(function () {
+    $('#birds').click(function () {
+        var audio = {};
+        audio["birds"] = new Audio();
+        audio["birds"].src = "images/birds.mp3"
+        audio["birds"].addEventListener('load', function () {
+            audio["birds"].play();
+        });
+    });
+});
 
     var $two = $(".two")
 
