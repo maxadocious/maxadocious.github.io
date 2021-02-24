@@ -20,9 +20,8 @@
         <section class="slide two">
           <article class="vh-center">
             <p class="center">SPRING!</p>
-            <button id="birds">
-                Press Me
-            </button>
+            <button id="btn" type="button">Click here for sound</button>
+	<audio id="audio" src="images/birds.mp3"></audio>
           </article>
         </section>
         <section class="slide three">
@@ -51,16 +50,9 @@
 
     <script>
 
-    $('document').ready(function () {
-    $('#birds').click(function () {
-        var audio = {};
-        audio["birds"] = new Audio();
-        audio["birds"].src = "images/birds.mp3"
-        audio["birds"].addEventListener('load', function () {
-            audio["birds"].play();
-        });
-    });
-});
+    $("#btn").on("click", function() {
+		var audio = $("#audio")[0];
+		audio.play();
 
     var $two = $(".two")
 
